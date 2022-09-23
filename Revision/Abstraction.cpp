@@ -1,4 +1,10 @@
 // Showing only important data and hiding unnecessary details
+// We can easily implement abstraction using the above two features 
+// provided by access specifiers. Say, the members that defines the
+//  internal implementation can be marked as private in a class. And
+//  the important information needed to be given to the outside world
+//  can be marked as public. And these public members can access the
+//  private members as they are inside the class.
 #include <iostream>
 using namespace std;
 
